@@ -41,6 +41,10 @@ This project uses machine learning to predict the presence of heart disease in p
 
 ---
 
+## License
+This project is licensed under the [MIT License](LICENSE).
+
+
 ## 🚀 Getting Started
 
 1. Clone the repository:
