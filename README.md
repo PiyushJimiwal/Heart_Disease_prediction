@@ -1,54 +1,53 @@
-# Heart Disease Prediction using Neural Networks 🫀
+# ❤️ Heart Disease Prediction using Neural Networks
 
-This machine learning project uses the UCI Cleveland Heart Disease dataset to build a neural network model that predicts the likelihood of heart disease in patients based on medical attributes.
-
----
-
-## 🔍 Project Objective
-To build and evaluate a binary classification model using TensorFlow and scikit-learn that can predict whether a patient is likely to have heart disease.
+This project uses machine learning to predict the presence of heart disease in patients based on various medical attributes. A neural network model has been trained on the **Cleveland Heart Disease dataset** and achieves an accuracy of **88%**.
 
 ---
 
-## 📊 Dataset
-**Source:** [Kaggle - Heart Disease Cleveland UCI](https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci)
+## 📌 Project Highlights
 
-**File used:** `heart_disease.csv`
+- ✅ Dataset: [Heart Disease - Cleveland UCI Dataset](https://www.kaggle.com/datasets/cherngs/heart-disease-cleveland-uci)
+- ✅ Model: Neural Network built with TensorFlow/Keras
+- ✅ Accuracy: **88%**
+- ✅ Language: Python
+- ✅ Preprocessing: Missing value handling, encoding, and scaling
+- ✅ Evaluation: Accuracy, loss curves
 
-This dataset contains various features including:
+---
+
+## ⚙️ Model
+
+- Framework: **TensorFlow / Keras**
+- Type: Feedforward Neural Network
+- Preprocessing:
+  - Replaced missing values with `NaN` then filled with column **medians**
+  - One-hot encoding for categorical features
+  - Feature scaling using `StandardScaler`
+
+## 📊 Features Used
 - Age
 - Sex
-- Chest pain type
-- Resting blood pressure
-- Cholesterol
-- Fasting blood sugar
-- Maximum heart rate
-- ...and more.
+- Chest Pain Type
+- Resting Blood Pressure
+- Serum Cholesterol
+- Fasting Blood Sugar
+- Resting ECG
+- Maximum Heart Rate Achieved
+- Exercise Induced Angina
+- ST depression induced by exercise
+- Slope of peak exercise ST segment
+- Number of major vessels
+- Thalassemia
 
 ---
 
-## ⚙️ Technologies Used
-- Python
-- NumPy, Pandas
-- Matplotlib, Seaborn
-- Scikit-learn
-- TensorFlow / Keras
+## License
+This project is licensed under the [MIT License](LICENSE).
 
----
 
-## 🧠 Model Details
-- Neural Network with 3 Dense layers
-- Dropout used to prevent overfitting
-- Metrics: Accuracy, Precision, Recall, F1 Score, AUC-ROC
+## 🚀 Getting Started
 
----
-
-## 📈 Results
-The model achieved an **accuracy of ~82%** on the test set.
-
----
-
-## 🧪 How to Run
-1. Clone the repo  
+1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/Heart_Disease_Prediction.git
-   cd Heart_Disease_Prediction
+   git clone https://github.com/PiyushJimiwal/Heart_Disease_prediction.git
+   cd Heart_Disease_prediction
